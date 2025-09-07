@@ -1,4 +1,4 @@
-# CV Jonathan Peña
+# CV Roy Nadiel Almada, by Jonathan Peña: [JonCode Github](https://github.com/joncodeofficial).
 
 A modern, responsive CV/Resume built with React, TypeScript, and Tailwind CSS.
 
