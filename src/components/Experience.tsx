@@ -2,16 +2,16 @@ type ExperienceProps = {
   title: string;
   company: string;
   duration: string;
-  location: string;
-  responsibilities: string[];
+  description: string;
+  challenges: string[];
 };
 
-export const WorkExperience = ({
+export const Experience = ({
   title,
   company,
   duration,
-  location,
-  responsibilities,
+  description,
+  challenges,
 }: ExperienceProps) => {
   return (
     <div className='space-y-2'>
@@ -19,13 +19,13 @@ export const WorkExperience = ({
         <div>
           <h3 className='font-bold text-lg text-[#374151]'>{title}</h3>
           <p className='text-gray-600'>
-            {company} {location}
+            {company} {description}
           </p>
         </div>
         <span className='text-gray-500 text-sm'>{duration}</span>
       </div>
       <ul className='list-disc list-inside text-gray-600 space-y-1 text-sm'>
-        {responsibilities.map((item, index) => (
+        {challenges.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ul>

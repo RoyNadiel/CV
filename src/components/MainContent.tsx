@@ -1,6 +1,6 @@
 import { useTranslation } from '../context/TranslationContext';
 import { Education } from './Education';
-import { WorkExperience } from './Experience';
+import { Experience } from './Experience';
 
 export const MainContent = () => {
   const { t } = useTranslation();
@@ -14,58 +14,58 @@ export const MainContent = () => {
 
       <section className='space-y-6'>
         <h2 className='text-2xl font-bold tracking-wider text-[#0082E6]'>
-          {t('workExperience.title')}
+          {t('experience.title')}
         </h2>
 
-        <WorkExperience
-          title={t('workExperience.holoXR.title')}
-          company={t('workExperience.holoXR.company')}
-          duration={t('workExperience.holoXR.duration')}
-          location={t('workExperience.holoXR.location')}
-          responsibilities={[
-            t('workExperience.holoXR.responsibilities.0'),
-            t('workExperience.holoXR.responsibilities.1'),
-            t('workExperience.holoXR.responsibilities.2'),
-            t('workExperience.holoXR.responsibilities.3'),
+        <Experience
+          title={t('experience.writtingJs.title')}
+          company={t('experience.writtingJs.company')}
+          duration={t('experience.writtingJs.duration')}
+          description={t('experience.writtingJs.description')}
+          challenges={[
+            t('experience.writtingJs.challenges.0'),
+            t('experience.writtingJs.challenges.1'),
+            t('experience.writtingJs.challenges.2'),
+            t('experience.writtingJs.challenges.3'),
           ]}
         />
 
-        <WorkExperience
-          title={t('workExperience.sevenSuite.title')}
-          company={t('workExperience.sevenSuite.company')}
-          duration={t('workExperience.sevenSuite.duration')}
-          location={t('workExperience.sevenSuite.location')}
-          responsibilities={[
-            t('workExperience.sevenSuite.responsibilities.0'),
-            t('workExperience.sevenSuite.responsibilities.1'),
-            t('workExperience.sevenSuite.responsibilities.2'),
-            t('workExperience.sevenSuite.responsibilities.3'),
+        <Experience
+          title={t('experience.ecommerce.title')}
+          company={t('experience.ecommerce.company')}
+          duration={t('experience.ecommerce.duration')}
+          description={t('experience.ecommerce.description')}
+          challenges={[
+            t('experience.ecommerce.challenges.0'),
+            t('experience.ecommerce.challenges.1'),
+            t('experience.ecommerce.challenges.2'),
+            t('experience.ecommerce.challenges.3'),
           ]}
         />
 
-        <WorkExperience
-          title={t('workExperience.norkut.title')}
-          company={t('workExperience.norkut.company')}
-          duration={t('workExperience.norkut.duration')}
-          location={t('workExperience.norkut.location')}
-          responsibilities={[
-            t('workExperience.norkut.responsibilities.0'),
-            t('workExperience.norkut.responsibilities.1'),
-            t('workExperience.norkut.responsibilities.2'),
-            t('workExperience.norkut.responsibilities.3'),
+        <Experience
+          title={t('experience.chessGame.title')}
+          company={t('experience.chessGame.company')}
+          duration={t('experience.chessGame.duration')}
+          description={t('experience.chessGame.description')}
+          challenges={[
+            t('experience.chessGame.challenges.0'),
+            t('experience.chessGame.challenges.1'),
+            t('experience.chessGame.challenges.2'),
+            t('experience.chessGame.challenges.3'),
           ]}
         />
 
-        <WorkExperience
-          title={t('workExperience.nanotecks.title')}
-          company={t('workExperience.nanotecks.company')}
-          duration={t('workExperience.nanotecks.duration')}
-          location={t('workExperience.nanotecks.location')}
-          responsibilities={[
-            t('workExperience.nanotecks.responsibilities.0'),
-            t('workExperience.nanotecks.responsibilities.1'),
-            t('workExperience.nanotecks.responsibilities.2'),
-            t('workExperience.nanotecks.responsibilities.3'),
+        <Experience
+          title={t('experience.writer.title')}
+          company={t('experience.writer.company')}
+          duration={t('experience.writer.duration')}
+          description={t('experience.writer.description')}
+          challenges={[
+            t('experience.writer.challenges.0'),
+            t('experience.writer.challenges.1'),
+            t('experience.writer.challenges.2'),
+            t('experience.writer.challenges.3'),
           ]}
         />
       </section>

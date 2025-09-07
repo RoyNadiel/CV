@@ -12,7 +12,7 @@ app.get('/', (c) => {
     renderToString(
       <html>
         <head>
-          <title>CV - Jonathan Peña</title>
+          <title>CV - Roy Nadiel Almada</title>
           <link rel='icon' type='image/svg+xml' href='/pdf.svg' />
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link rel='preconnect' href='https://fonts.gstatic.com' />

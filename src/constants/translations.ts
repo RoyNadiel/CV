@@ -3,7 +3,7 @@ export const translations = {
     profile: {
       title: 'PROFILE',
       description:
-        'Full Stack Developer with 5+ years of experience. Skilled in React, Next.js, Node.js, and Golang. Proficient in CSS, JavaScript, state management, and testing. Experienced in Docker, WebAssembly, and agile practices like Scrum and Kanban.',
+        'Full Stack Web Developer with 1+ year of experience building web applications using HTML, CSS, TailwindCSS, JavaScript, React, Next.js, Vite, Node.js, and TypeScript. Skilled in Git and best development practices, focused on delivering efficient and scalable web solutions.',
     },
     contact: {
       title: 'CONTACT ME',
@@ -18,14 +18,11 @@ export const translations = {
         'HTML5/CSS',
         'Node.js',
         'Tailwind',
-        'Redux',
         'Git',
         'REST APIs',
-        'MongoDB',
         'MySQL',
-        'Docker',
-        'Clean Architecture',
-        'Testing',
+        'C#',
+        'XAML',
       ],
       soft: [
         'Effective Communication',
@@ -38,50 +35,50 @@ export const translations = {
         'Empathy',
       ],
     },
-    workExperience: {
-      title: 'WORK EXPERIENCE',
-      holoXR: {
-        title: 'Frontend | MERN Developer',
-        location: 'HOLO XR — Santiago, Chile',
-        duration: '2023 - Present',
-        responsibilities: [
-          'Created a Gantt chart with React.js.',
-          'Built a scheduler integrated with Autodesk APIs.',
-          'Enabled 3D model-based project progress tracking.',
-          'Improved management through real-time visual tools.',
+    experience: {
+      title: 'EXPERIENCE',
+      writtingJs: {
+        title: 'Writting JS',
+        description: 'JavaScript playground using Vanilla JS, Vite, Acorn, and Monaco Editor.',
+        duration: '2025 - Present',
+        challenges: [
+          'Integrating and customizing Monaco Editor.',
+          'Parsing code with Acorn AST.',
+          'Optimizing performance with Vite.',
+          'Secure execution of user-generated code.',
         ],
       },
-      sevenSuite: {
-        title: 'Frontend | React Developer',
-        location: 'Seven Suite — San José, Costa Rica',
-        duration: '2023 - 2023',
-        responsibilities: [
-          'Rebuilt a .NET app using Next.js frontend.',
-          'Integrated .NET 6 backend with SQL Server.',
-          'Deployed the application seamlessly on Azure.',
-          'Enhanced performance during web technology transition.',
+      ecommerce: {
+        title: 'Ecommerce',
+        description: 'E-commerce in Next.js and TypeScript for shoe sales, with real-time pricing API.',
+        duration: '2024 - 2025',
+        challenges: [
+          'Scalable architecture with Next.js and TypeScript.',
+          'Integration of real-time pricing API.',
+          'Smooth and user-friendly shopping experience.',
+          'State management and dynamic routing.',
         ],
       },
-      norkut: {
-        title: 'FullStack | .NET Developer',
-        location: 'Norkut — Nueva Esparta, Venezuela',
-        duration: '2022 - 2022',
-        responsibilities: [
-          'Improved CRM features for supermarket management software.',
-          'Developed point of sale and inventory control systems.',
-          'Customized and optimized nopCommerce for e-commerce.',
-          'Built applications using WPF, Windows Forms, and .NET.',
+      chessGame: {
+        title: 'Chess Game',
+        description: 'Chess game built with .NET Framework and WPF (XAML and C#).',
+        duration: '2024',
+        challenges: [
+          'Full implementation of chess rules.',
+          'Intuitive graphical interface in XAML.',
+          'Board state management and move validation.',
+          'Optimized game logic for turns and endgame.',
         ],
       },
-      nanotecks: {
-        title: 'Frontend | React Developer',
-        location: 'Nanotecks — Santo Domingo de los Tsachilas, Ecuador',
-        duration: '2020 - 2021',
-        responsibilities: [
-          'Promoting apartments in Santo Domingo.',
-          'Attractive design for buyer interest.',
-          'SEO-focused for increased visibility.',
-          'Highlighting Ecuador market opportunity.',
+      writer: {
+        title: 'Writer',
+        description: 'Lightweight text editor in WPF (XAML and C#) inspired by Windows Notepad.',
+        duration: '2024',
+        challenges: [
+          'Efficient file reading and writing.',
+          'Basic text editing features with minimal interface.',
+          'Support for multiple file formats.',
+          'Improved user experience for document handling.',
         ],
       },
     },
@@ -90,7 +87,7 @@ export const translations = {
       udo: {
         title: "Bachelor's Degree in Computer Science",
         institution: 'Universidad de Oriente (UDO)',
-        duration: '2017 - No finish',
+        duration: '2023 - Present',
         details:
           'Completed coursework in programming, algorithms, databases, and software engineering.',
       },
@@ -105,10 +102,10 @@ export const translations = {
     profile: {
       title: 'PERFIL',
       description:
-        'Desarrollador Full Stack con más de 5 años de experiencia. Especializado en React, Next.js, Node.js y Golang. Experto en CSS, JavaScript, gestión de estado y pruebas. Experiencia en Docker, WebAssembly y prácticas ágiles como Scrum y Kanban.',
+        'Desarrollador Web Full Stack con +1 año de experiencia en **HTML, CSS, TailwindCSS, JavaScript, React, Next.js, Vite, Node.js y TypeScript**. Manejo de **Git** y buenas prácticas de desarrollo, enfocado en soluciones web eficientes y escalables.',
     },
     contact: {
-      title: 'CONTACTAME',
+      title: 'CONTÁCTAME',
     },
     skills: {
       title: 'HABILIDADES',
@@ -120,14 +117,11 @@ export const translations = {
         'HTML5/CSS',
         'Node.js',
         'Tailwind',
-        'Redux',
         'Git',
-        'REST APIs',
-        'MongoDB',
+        'APIs REST',
         'MySQL',
-        'Docker',
-        'Arquitectura Limpia',
-        'Pruebas',
+        'C#',
+        'XAML',
       ],
       soft: [
         'Comunicación Efectiva',
@@ -140,50 +134,50 @@ export const translations = {
         'Empatía',
       ],
     },
-    workExperience: {
-      title: 'EXPERIENCIA LABORAL',
-      holoXR: {
-        title: 'Frontend | MERN Developer',
-        location: 'HOLO XR — Santiago, Chile',
-        duration: '2023 - Presente',
-        responsibilities: [
-          'Creó un gráfico Gantt con React.js.',
-          'Construyó un planificador integrado con Autodesk APIs.',
-          'Habilitó el seguimiento de proyectos basado en modelos 3D.',
-          'Mejoró la gestión con herramientas visuales en tiempo real.',
+    experience: {
+      title: 'EXPERIENCIA',
+      writtingJs: {
+        title: 'Writting JS',
+        description: 'Playground de JavaScript con Vanilla JS, Vite, Acorn y Monaco Editor.',
+        duration: '2025 - Presente',
+        challenges: [
+          'Integración y personalización de Monaco Editor.',
+          'Análisis de código con Acorn AST.',
+          'Optimización de rendimiento con Vite.',
+          'Ejecución segura de código de usuarios.',
         ],
       },
-      sevenSuite: {
-        title: 'Frontend | React Developer',
-        location: 'Seven Suite — San José, Costa Rica',
-        duration: '2023 - 2023',
-        responsibilities: [
-          'Reconstruyó una aplicación .NET usando Next.js como frontend.',
-          'Integró el backend .NET 6 con SQL Server.',
-          'Implementó la aplicación sin problemas en Azure.',
-          'Mejoró el rendimiento durante la transición tecnológica web.',
+      ecommerce: {
+        title: 'Ecommerce',
+        description: 'E-commerce en Next.js y TypeScript para venta de zapatos, con API de precios en Bolívares.',
+        duration: '2024 - 2025',
+        challenges: [
+          'Arquitectura escalable en Next.js y TypeScript.',
+          'Integración de API para precios en tiempo real.',
+          'Experiencia de compra fluida.',
+          'Gestión de estado y rutas dinámicas.',
         ],
       },
-      norkut: {
-        title: 'FullStack | .NET Developer',
-        location: 'Norkut — Nueva Esparta, Venezuela',
-        duration: '2022 - 2022',
-        responsibilities: [
-          'Mejoró características del CRM para software de gestión de supermercados.',
-          'Desarrolló sistemas de punto de venta y control de inventario.',
-          'Personalizó y optimizó nopCommerce para comercio electrónico.',
-          'Construyó aplicaciones usando WPF, Windows Forms y .NET.',
+      chessGame: {
+        title: 'Chess Game',
+        description: 'Juego de ajedrez en .NET Framework y WPF (XAML y C#).',
+        duration: '2024',
+        challenges: [
+          'Implementación completa de reglas de ajedrez.',
+          'Interfaz gráfica intuitiva en XAML.',
+          'Gestión del tablero y validación de movimientos.',
+          'Optimización de lógica de turnos y finalización.',
         ],
       },
-      nanotecks: {
-        title: 'Frontend | React Developer',
-        location: 'Nanotecks — Santo Domingo de los Tsáchilas, Ecuador',
-        duration: '2020 - 2021',
-        responsibilities: [
-          'Promoción de apartamentos en Santo Domingo.',
-          'Diseño atractivo para interés de compradores.',
-          'Enfoque SEO para mayor visibilidad.',
-          'Resaltando oportunidades en el mercado ecuatoriano.',
+      writer: {
+        title: 'Writer',
+        description: 'Editor de texto ligero en WPF (XAML y C#) inspirado en el Bloc de notas.',
+        duration: '2024',
+        challenges: [
+          'Lectura y escritura eficiente de archivos.',
+          'Funciones básicas de edición con interfaz minimalista.',
+          'Soporte para varios formatos de archivo.',
+          'Mejora de la experiencia de usuario en documentos.',
         ],
       },
     },
@@ -192,9 +186,9 @@ export const translations = {
       udo: {
         title: 'Licenciatura en Ciencias de la Computación',
         institution: 'Universidad de Oriente (UDO)',
-        duration: '2017 - No terminado',
+        duration: '2023 - Presente',
         details:
-          'Cursos completados en programación, algoritmos, bases de datos e ingeniería de software.',
+          'Cursos en programación, algoritmos, bases de datos e ingeniería de software.',
       },
       highSchool: {
         title: 'Educación Secundaria',
