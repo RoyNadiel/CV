@@ -1,4 +1,5 @@
-# CV Jonathan Peña
+# CV Roy Nadiel Almada ✋
+## 💻 Made By Jon Code: [Github](https://github.com/joncodeofficial).
 
 A modern, responsive CV/Resume built with React, TypeScript, and Tailwind CSS.
 
