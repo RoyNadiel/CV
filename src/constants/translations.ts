@@ -3,7 +3,7 @@ export const translations = {
     profile: {
       title: 'PROFILE',
       description:
-        'Full Stack Web Developer with 1+ year of experience building web applications using HTML, CSS, TailwindCSS, JavaScript, React, Next.js, Vite, Node.js, and TypeScript. Skilled in Git and best development practices, focused on delivering efficient and scalable web solutions.',
+        'Full Stack Web Developer with 1+ year of experience building web applications using HTML, CSS, TailwindCSS, JavaScript, TypeScript React, Next.js(exploring) and Node.js. Skilled in Git and best development practices, focused on delivering efficient and scalable web solutions.',
     },
     contact: {
       title: 'CONTACT ME',
@@ -11,16 +11,16 @@ export const translations = {
     skills: {
       title: 'SKILLS',
       technical: [
+        'HTML5/CSS3',
+        'Tailwind',
         'JavaScript',
         'TypeScript',
         'React.js',
         'Next.js',
-        'HTML5/CSS',
         'Node.js',
-        'Tailwind',
         'Git',
         'REST APIs',
-        'MySQL',
+        'SQL',
         'C#',
         'XAML',
       ],
@@ -102,7 +102,7 @@ export const translations = {
     profile: {
       title: 'PERFIL',
       description:
-        'Desarrollador Web Full Stack con +1 año de experiencia en **HTML, CSS, TailwindCSS, JavaScript, React, Next.js, Vite, Node.js y TypeScript**. Manejo de **Git** y buenas prácticas de desarrollo, enfocado en soluciones web eficientes y escalables.',
+        'Desarrollador Web Full Stack con +1 año de experiencia en HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js (explorando) y Node.js. Manejo de Git y buenas prácticas de desarrollo, enfocado en soluciones web eficientes y escalables.',
     },
     contact: {
       title: 'CONTÁCTAME',
@@ -110,16 +110,16 @@ export const translations = {
     skills: {
       title: 'HABILIDADES',
       technical: [
+        'HTML5/CSS3',
+        'TailwindCSS',
         'JavaScript',
         'TypeScript',
         'React.js',
         'Next.js',
-        'HTML5/CSS',
         'Node.js',
-        'Tailwind',
         'Git',
         'APIs REST',
-        'MySQL',
+        'SQL',
         'C#',
         'XAML',
       ],
