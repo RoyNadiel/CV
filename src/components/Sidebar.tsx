@@ -25,10 +25,12 @@ export const Sidebar = () => {
           </div>
           <div className='flex items-center gap-3'>
             <Mail className='text-white/80' size={18} />
-            <a href='mailto:almadaroy19@gnail.com' 
-            target='_blank' className='text-sm hover:text-white/70 transition-colors'>
+            <a
+              href='mailto:almadaroy19@gmail.com?subject=Inquiry&body=Hello, I would like to contact you'
+              target='_blank'
+            >
               almadaroy19@gmail.com
-              </a>
+            </a>
           </div>
           <div className='flex items-center gap-3'>
             <Github className='text-white/80' size={18} />
@@ -54,10 +56,10 @@ export const Sidebar = () => {
             <BriefcaseBusiness className='text-white/80' size={18} />
             <a
               target='_blank'
-              href='https://roynadiel.github.io/Portfolio'
+              href='https://roynadiel.github.io/'
               className='text-sm hover:text-white/70 transition-colors'
             >
-              https://roynadiel.github.io/Portfolio
+              https://roynadiel.github.io/
             </a>
           </div>
         </div>
