@@ -18,7 +18,7 @@ export const Experience = ({
       <div className='flex justify-between items-start'>
         <div>
           <h3 className='font-bold text-lg text-[#374151]'>{title}</h3>
-          <p className='text-gray-600'>
+          <p className='text-gray-600 max-w-[500px]'>
             {company} {description}
           </p>
         </div>

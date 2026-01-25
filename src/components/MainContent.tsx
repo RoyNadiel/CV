@@ -18,6 +18,19 @@ export const MainContent = () => {
         </h2>
 
         <Experience
+          title={t('experience.tasaActual.title')}
+          company={t('experience.tasaActual.company')}
+          duration={t('experience.tasaActual.duration')}
+          description={t('experience.tasaActual.description')}
+          challenges={[
+            t('experience.tasaActual.challenges.0'),
+            t('experience.tasaActual.challenges.1'),
+            t('experience.tasaActual.challenges.2'),
+            t('experience.tasaActual.challenges.3'),
+          ]}
+        />
+
+        <Experience
           title={t('experience.writtingJs.title')}
           company={t('experience.writtingJs.company')}
           duration={t('experience.writtingJs.duration')}
@@ -53,19 +66,6 @@ export const MainContent = () => {
             t('experience.chessGame.challenges.1'),
             t('experience.chessGame.challenges.2'),
             t('experience.chessGame.challenges.3'),
-          ]}
-        />
-
-        <Experience
-          title={t('experience.writer.title')}
-          company={t('experience.writer.company')}
-          duration={t('experience.writer.duration')}
-          description={t('experience.writer.description')}
-          challenges={[
-            t('experience.writer.challenges.0'),
-            t('experience.writer.challenges.1'),
-            t('experience.writer.challenges.2'),
-            t('experience.writer.challenges.3'),
           ]}
         />
       </section>

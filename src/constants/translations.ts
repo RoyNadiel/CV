@@ -37,6 +37,17 @@ export const translations = {
     },
     experience: {
       title: 'EXPERIENCE',
+      tasaActual: {
+        title: 'Tasa Actual',
+        description: 'Real-time currency conversion web application for the Venezuelan market.',
+        duration: '2025 - Present',
+        challenges: [
+          'Integration of real-time pricing API.',
+          'Smooth and user-friendly shopping experience.',
+          'State management and dynamic routing.',
+          'Responsive design for mobile and desktop.',
+        ],
+      },
       writtingJs: {
         title: 'Writting JS',
         description: 'JavaScript playground using Vanilla JS, Vite, Acorn, and Monaco Editor.',
@@ -50,8 +61,9 @@ export const translations = {
       },
       ecommerce: {
         title: 'Ecommerce',
-        description: 'E-commerce in Next.js and TypeScript for shoe sales, with real-time pricing API.',
-        duration: '2024 - 2025',
+        description:
+          'E-commerce in Next.js and TypeScript for shoe sales, with real-time pricing API.',
+        duration: '2024',
         challenges: [
           'Scalable architecture with Next.js and TypeScript.',
           'Integration of real-time pricing API.',
@@ -68,17 +80,6 @@ export const translations = {
           'Intuitive graphical interface in XAML.',
           'Board state management and move validation.',
           'Optimized game logic for turns and endgame.',
-        ],
-      },
-      writer: {
-        title: 'Writer',
-        description: 'Lightweight text editor in WPF (XAML and C#) inspired by Windows Notepad.',
-        duration: '2024',
-        challenges: [
-          'Efficient file reading and writing.',
-          'Basic text editing features with minimal interface.',
-          'Support for multiple file formats.',
-          'Improved user experience for document handling.',
         ],
       },
     },
@@ -136,6 +137,18 @@ export const translations = {
     },
     experience: {
       title: 'EXPERIENCIA',
+      tasaActual: {
+        title: 'Tasa Actual',
+        description:
+          'Aplicación web de conversión de divisas en tiempo real para el mercado Venezolano.',
+        duration: '2025 - Presente',
+        challenges: [
+          'Integración de API de precios en tiempo real.',
+          'Experiencia de compra fluida.',
+          'Gestión de estado y rutas dinámicas.',
+          'Diseño Responsive para móvil y escritorio.',
+        ],
+      },
       writtingJs: {
         title: 'Writting JS',
         description: 'Playground de JavaScript con Vanilla JS, Vite, Acorn y Monaco Editor.',
@@ -149,7 +162,8 @@ export const translations = {
       },
       ecommerce: {
         title: 'Ecommerce',
-        description: 'E-commerce en Next.js y TypeScript para venta de zapatos, con API de precios en Bolívares.',
+        description:
+          'E-commerce en Next.js y TypeScript para venta de zapatos, con API de precios en Bolívares.',
         duration: '2024 - 2025',
         challenges: [
           'Arquitectura escalable en Next.js y TypeScript.',
@@ -169,17 +183,6 @@ export const translations = {
           'Optimización de lógica de turnos y finalización.',
         ],
       },
-      writer: {
-        title: 'Writer',
-        description: 'Editor de texto ligero en WPF (XAML y C#) inspirado en el Bloc de notas.',
-        duration: '2024',
-        challenges: [
-          'Lectura y escritura eficiente de archivos.',
-          'Funciones básicas de edición con interfaz minimalista.',
-          'Soporte para varios formatos de archivo.',
-          'Mejora de la experiencia de usuario en documentos.',
-        ],
-      },
     },
     education: {
       title: 'EDUCACIÓN',
@@ -187,8 +190,7 @@ export const translations = {
         title: 'Licenciatura en Ciencias de la Computación',
         institution: 'Universidad de Oriente (UDO)',
         duration: '2023 - Presente',
-        details:
-          'Cursos en programación, algoritmos, bases de datos e ingeniería de software.',
+        details: 'Cursos en programación, algoritmos, bases de datos e ingeniería de software.',
       },
       highSchool: {
         title: 'Educación Secundaria',

@@ -15,7 +15,7 @@ export const Education = ({ degree, school, duration, details }: EducationProps)
         </div>
         <span className='text-gray-500 text-sm'>{duration}</span>
       </div>
-      <p className='text-gray-600 text-sm'>{details}</p>
+      <p className='text-gray-600 text-sm max-w-[500px]'>{details}</p>
     </div>
   );
 };
