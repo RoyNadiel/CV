@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "pnpm run build && vite preview",
-    "deploy": "pnpm run build && wrangler deploy",
+    "deploy": "pnpm run build && wrangler deploy --config dist/cv/wrangler.json",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "format": "prettier --write --ignore-unknown src",
