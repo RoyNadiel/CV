@@ -3,7 +3,7 @@ export const translations = {
     profile: {
       title: 'PROFILE',
       description:
-        'Full Stack Web Developer with 1+ year of experience building web applications using HTML, CSS, TailwindCSS, JavaScript, TypeScript React, Next.js(exploring) and Node.js. Skilled in Git and best development practices, focused on delivering efficient and scalable web solutions.',
+        'Software Developer with 1+ year of experience building web applications using HTML, CSS, TailwindCSS, JavaScript, TypeScript React, Next.js(exploring) and Node.js. Skilled in Git and best development practices, focused on delivering efficient and scalable web solutions.',
     },
     contact: {
       title: 'CONTACT ME',
@@ -103,7 +103,7 @@ export const translations = {
     profile: {
       title: 'PERFIL',
       description:
-        'Desarrollador Web Full Stack con +1 año de experiencia en HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js (explorando) y Node.js. Manejo de Git y buenas prácticas de desarrollo, enfocado en soluciones web eficientes y escalables.',
+        'Desarrollador de Software con +1 año de experiencia en HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js (explorando) y Node.js. Manejo de Git y buenas prácticas de desarrollo, enfocado en soluciones web eficientes y escalables.',
     },
     contact: {
       title: 'CONTÁCTAME',

@@ -1,4 +1,4 @@
-import { createContext, use, useState, ReactNode } from 'react';
+import { createContext, useContext, useState, ReactNode, useCallback, useMemo } from 'react';
 import { changeTranslation } from '../utils/changeTranslation';
 
 interface TranslationContextState {
@@ -16,28 +16,32 @@ interface TranslationProviderProps {
 export const TranslationProvider = ({ children }: TranslationProviderProps) => {
   const [currentLang, setCurrentLang] = useState<string>('en');
 
-  const toggleLanguage = () => {
+  const toggleLanguage = useCallback(() => {
     setCurrentLang((prev) => (prev === 'es' ? 'en' : 'es'));
-  };
+  }, []);
 
-  const t = (path: string) => { return changeTranslation(path, currentLang); };
+  const t = useCallback(
+    (path: string) => {
+      return changeTranslation(path, currentLang);
+    },
+    [currentLang]
+  );
 
-  const value = {
-    currentLang,
-    toggleLanguage,
-    t,
-  };
+  const value = useMemo(
+    () => ({
+      currentLang,
+      toggleLanguage,
+      t,
+    }),
+    [currentLang, toggleLanguage, t]
+  );
 
-  return (
-      <TranslationContext.Provider value={value}>
-        {children}
-      </TranslationContext.Provider>
-    );
+  return <TranslationContext.Provider value={value}>{children}</TranslationContext.Provider>;
 };
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const useTranslation = (): TranslationContextState => {
-  const context = use(TranslationContext);
+  const context = useContext(TranslationContext);
 
   if (context === undefined) {
     throw new Error('useTranslation must be used within a TranslationProvider');
