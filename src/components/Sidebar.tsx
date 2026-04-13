@@ -1,4 +1,12 @@
-import { Phone, Mail, MapPin, Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Github,
+  Linkedin,
+  BriefcaseBusiness,
+  ExternalLink,
+} from 'lucide-react';
 import { translations } from '../constants/translations';
 import { useTranslation } from '../context/TranslationContext';
 
@@ -92,6 +100,36 @@ export const Sidebar = () => {
                   {t(`skills.soft.${index}`)}
                 </span>
               ))}
+            </div>
+          </div>
+          <div>
+            <h4 className='text-gray-100 text-sm mb-2'>Languages</h4>
+            <div className='flex flex-wrap gap-2'>
+              {translations.en.skills.languages.map((lang, index) =>
+                lang === 'English - B2 Upper Intermediate' ||
+                lang === 'Inglés - B2 Intermedio Superior' ? (
+                  <div className='inline-flex items-center gap-x-2' key={index}>
+                    <a
+                      href='https://cert.efset.org/en/4fxqHD'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='px-3 py-1 cursor-pointer bg-[#0066B8] text-sm rounded-full hover:bg-[#005299] transition-colors'
+                    >
+                      {t(`skills.languages.${index}`)}{' '}
+                    </a>
+                    <a href='https://cert.efset.org/en/4fxqHD' target='_blank'>
+                      <ExternalLink size={16} className='text-white/80' />
+                    </a>
+                  </div>
+                ) : (
+                  <span
+                    key={index}
+                    className='px-3 py-1 bg-[#0066B8] text-sm rounded-full hover:bg-[#005299] transition-colors'
+                  >
+                    {t(`skills.languages.${index}`)}
+                  </span>
+                )
+              )}
             </div>
           </div>
         </div>

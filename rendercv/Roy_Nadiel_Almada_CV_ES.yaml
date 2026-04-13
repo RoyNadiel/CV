@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Roy Nadiel Almada
+  headline: Desarrollador de Software
+  location: Venezuela, Isla de Margarita
+  email: almadaroy19@gmail.com
+  phone: "+584121951892"
+  website: https://roynadiel.github.io/
+  social_networks:
+    - network: GitHub
+      username: RoyNadiel
+    - network: LinkedIn
+      username: roy-almada-397a19186
+
+  sections:
+    perfil:
+      - Desarrollador de Software con +1 año de experiencia en HTML, CSS,
+        TailwindCSS, JavaScript, TypeScript, React, Next.js (explorando) y
+        Node.js. Manejo de Git y buenas prácticas de desarrollo, enfocado en
+        soluciones web eficientes y escalables.
+
+    experiencia:
+      - company: Proyecto Personal
+        position: "Tasa Actual — Aplicación web de conversión de divisas en tiempo real para el mercado Venezolano"
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Integración de API de precios en tiempo real.
+          - Experiencia de compra fluida.
+          - Gestión de estado y rutas dinámicas.
+          - Diseño Responsive para móvil y escritorio.
+
+      - company: Proyecto Personal
+        position: "Writting JS — Playground de JavaScript con Vanilla JS, Vite, Acorn y Monaco Editor"
+        date: "2025"
+        highlights:
+          - Integración y personalización de Monaco Editor.
+          - Análisis de código con Acorn AST.
+          - Optimización de rendimiento con Vite.
+          - Ejecución segura de código de usuarios.
+
+      - company: Proyecto Personal
+        position: "Deshidratadora (Deshi) — Interfaz Web para el control de una Deshidratadora Eléctrica construida alrededor del Microcontrolador Wemos D1 Mini"
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Comunicación entre el microcontrolador ESP8266 y la interfaz web.
+          - Gestión de estado y control de temperatura.
+          - Implementación de servidor local vía WI-FI.
+          - Interfaz de usuario intuitiva y responsive.
+
+      - company: Proyecto Personal
+        position: "Quote Creator — Plataforma web interactiva para crear y personalizar citas inspiradoras"
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Personalización interactiva de citas con vista previa en tiempo real.
+          - Integración de diversas bibliotecas de fuentes mediante la API de Google Fonts y opciones de fondo.
+          - Generación de imágenes de citas de alta calidad para compartir y diseño de formatos de aspecto.
+          - Diseño responsive para una experiencia de usuario fluida en todos los dispositivos.
+
+    educación:
+      - institution: Universidad de Oriente (UDO)
+        area: Ciencias de la Computación
+        degree: Lic.
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Cursos en programación, algoritmos, bases de datos e ingeniería de software.
+
+      - institution: U.E.N.B DR. Luis Ortega
+        area: Educación Secundaria
+        degree: ""
+        start_date: 2011-01
+        end_date: 2016-06
+
+    habilidades:
+      - label: Técnicas
+        details: HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js, Node.js, Hono, Express, Supabase, Git, SQL, REST APIs
+      - label: Blandas
+        details: Comunicación Efectiva, Liderazgo, Resolución de Problemas, Trabajo en Equipo, Adaptabilidad, Aprendizaje Continuo, Gestión del Tiempo, Empatía
+      - label: Idiomas
+        details: "Español (Nativo), [Inglés — B2 Intermedio Superior](https://cert.efset.org/en/4fxqHD)"
+
+design:
+  theme: harvard
+  page:
+    size: us-letter
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_top_note: false
+  colors:
+    name: rgb(0,0,0)
+    headline: rgb(0,0,0)
+    connections: rgb(0,0,0)
+    section_titles: rgb(0,0,0)
+    links: rgb(0,79,144)
+  typography:
+    font_family:
+      body: XCharter
+      name: XCharter
+      headline: XCharter
+      connections: XCharter
+      section_titles: XCharter
+    font_size:
+      name: 25pt
+      connections: 9pt
+      section_titles: 1.3em
+  header:
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+    space_below_connections: 0.5cm
+    connections:
+      show_icons: false
+      separator: "•"
+      space_between_connections: 0.4cm
+  section_titles:
+    type: centered_with_centered_partial_line
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 1em
+    show_time_spans_in: []
+  entries:
+    short_second_row: false
+    highlights:
+      bullet: "•"
+
+locale:
+  language: spanish

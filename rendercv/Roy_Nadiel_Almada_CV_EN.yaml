@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Roy Nadiel Almada
+  headline: Software Developer
+  location: Venezuela, Isla de Margarita
+  email: almadaroy19@gmail.com
+  phone: "+584121951892"
+  website: https://roynadiel.github.io/
+  social_networks:
+    - network: GitHub
+      username: RoyNadiel
+    - network: LinkedIn
+      username: roy-almada-397a19186
+
+  sections:
+    profile:
+      - Software Developer with 1+ year of experience building web applications
+        using HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js
+        (exploring) and Node.js. Skilled in Git and best development practices,
+        focused on delivering efficient and scalable web solutions.
+
+    experience:
+      - company: Personal Project
+        position: "Tasa Actual — Real-time currency conversion web application for the Venezuelan market"
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Integration of real-time pricing API.
+          - Smooth and user-friendly shopping experience.
+          - State management and dynamic routing.
+          - Responsive design for mobile and desktop.
+
+      - company: Personal Project
+        position: "Writting JS — JavaScript playground using Vanilla JS, Vite, Acorn, and Monaco Editor"
+        date: "2025"
+        highlights:
+          - Integrating and customizing Monaco Editor.
+          - Parsing code with Acorn AST.
+          - Optimizing performance with Vite.
+          - Secure execution of user-generated code.
+
+      - company: Personal Project
+        position: "Deshydrator (Deshi) — Web interface for controlling an electric dehydrator built around the Wemos D1 Mini microcontroller"
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Communication between the ESP8266 microcontroller and the web interface.
+          - State management and temperature control.
+          - Implementation of local server via WI-FI.
+          - Intuitive and responsive user interface.
+
+      - company: Personal Project
+        position: "Quote Creator — Interactive web platform for creating and customizing inspirational quotes"
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Interactive quote customization with real-time preview.
+          - Integration of various font libraries via Google Fonts API and background options.
+          - Generation of high-quality quote images for sharing and aspect ratio design.
+          - Responsive design for a seamless user experience across all devices.
+
+    education:
+      - institution: Universidad de Oriente (UDO)
+        area: Computer Science
+        degree: BS
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Completed coursework in programming, algorithms, databases, and software engineering.
+
+      - institution: U.E.N.B DR. Luis Ortega
+        area: High School
+        degree: ""
+        start_date: 2011-01
+        end_date: 2016-06
+
+    skills:
+      - label: Technical
+        details: HTML, CSS, TailwindCSS, JavaScript, TypeScript, React, Next.js, Node.js, Hono, Express, Supabase, Git, SQL, REST APIs
+      - label: Soft Skills
+        details: Effective Communication, Leadership, Problem Solving, Teamwork, Adaptability, Continuous Learning, Time Management, Empathy
+      - label: Languages
+        details: "Spanish (Native), [English — B2 Upper Intermediate](https://cert.efset.org/en/4fxqHD)"
+
+design:
+  theme: harvard
+  page:
+    size: us-letter
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_top_note: false
+  colors:
+    name: rgb(0,0,0)
+    headline: rgb(0,0,0)
+    connections: rgb(0,0,0)
+    section_titles: rgb(0,0,0)
+    links: rgb(0,79,144)
+  typography:
+    font_family:
+      body: XCharter
+      name: XCharter
+      headline: XCharter
+      connections: XCharter
+      section_titles: XCharter
+    font_size:
+      name: 25pt
+      connections: 9pt
+      section_titles: 1.3em
+  header:
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+    space_below_connections: 0.5cm
+    connections:
+      show_icons: false
+      separator: "•"
+      space_between_connections: 0.4cm
+  section_titles:
+    type: centered_with_centered_partial_line
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 1em
+    show_time_spans_in: []
+  entries:
+    short_second_row: false
+    highlights:
+      bullet: "•"
+
+locale:
+  language: english
