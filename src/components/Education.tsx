@@ -7,15 +7,22 @@ type EducationProps = {
 
 export const Education = ({ degree, school, duration, details }: EducationProps) => {
   return (
-    <div className='space-y-1'>
-      <div className='flex justify-between items-start'>
-        <div>
-          <h3 className='font-bold text-[#374151]'>{degree}</h3>
-          <p className='text-gray-600'>{school}</p>
+    <div className='space-y-0.5'>
+      <div className='flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-x-4'>
+        <div className='text-black'>
+          <span className='font-bold'>{school}</span>
+          <span>, {degree}</span>
         </div>
-        <span className='text-gray-500 text-sm'>{duration}</span>
+        <span className='shrink-0 text-sm text-black font-medium'>{duration}</span>
       </div>
-      <p className='text-gray-600 text-sm max-w-[500px]'>{details}</p>
+      {details && (
+        <ul className='list-none pl-4'>
+          <li className='text-sm text-black leading-relaxed flex items-start gap-2'>
+            <span className='mt-1 shrink-0'>•</span>
+            <span>{details}</span>
+          </li>
+        </ul>
+      )}
     </div>
   );
 };
