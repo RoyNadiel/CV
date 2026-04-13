@@ -14,7 +14,7 @@ interface VitestConfigExport extends UserConfig {
 
 export default defineConfig({
   plugins: [tailwindcss(), cloudflare(), ssrPlugin(), react()],
-  base: "./",
+  base: "/",
   build: {
     commonjsOptions: {
       include: [/node_modules/],
