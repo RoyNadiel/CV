@@ -1,55 +1,60 @@
 # CV Roy Nadiel Almada ✋
-## 💻 Made By Jon Code: [Github](https://github.com/joncodeofficial).
+## 💻 Desarrollado por: [Roy Nadiel](https://github.com/RoyNadiel).
 
-A modern, responsive CV/Resume built with React, TypeScript, and Tailwind CSS.
+Un CV moderno, responsivo y compatible con sistemas ATS (Harvard Structure) construido con React, TypeScript y Tailwind CSS.
 
-## 🚀 Features
+## 🚀 Características
 
-- Responsive design
-- Print-friendly layout
-- Clean and modern UI
-- Downloadable PDF format
-- Component-based architecture
+- **Diseño Harvard ATS**: Estructura optimizada para sistemas de seguimiento de candidatos.
+- **Responsivo y Adaptable**: Diseño de una sola columna que se ajusta perfectamente a móviles, tablets y escritorio.
+- **RenderCV Integrado**: Generación de versiones PDF de alta calidad tipográfica mediante YAML y Typst.
+- **Multilingüe**: Soporte para cambio dinámico entre Inglés y Español.
+- **Optimizado para Impresión**: Estilos CSS específicos para una impresión perfecta en formato US Letter.
+- **Componentes Modulares**: Arquitectura limpia y reutilizable.
 
-## 🛠️ Technologies
+## 🛠️ Tecnologías
 
-- React 19
-- TypeScript
-- TailwindCSS
-- Vite
-- ESLint
-- react-to-print
-- vite-ssr-components SSR
+- **React 19**
+- **TypeScript**
+- **TailwindCSS 4**
+- **Vite**
+- **RenderCV** (Generación de PDF profesional)
+- **Lucide React** (Iconografía)
+- **react-to-print** (Impresión desde navegador)
 
-## 🎨 Customization
+## 🎨 Personalización
 
-The CV content can be easily customized by modifying:
+El contenido del CV se puede personalizar fácilmente modificando:
 
-1. Personal information in `Sidebar.tsx`
-2. Work experience in `Main.tsx`
-3. Skills in `constants/skills.ts`
-4. Education details in `Main.tsx`
+1. **Traducciones**: Todo el contenido textual se gestiona en `src/constants/translations.ts`.
+2. **Generación de PDF**: Los archivos YAML en la carpeta `rendercv/` definen el contenido para la versión profesional del PDF.
+3. **Estilos**: `src/index.css` contiene los tokens de diseño Harvard.
 
-## 🖨️ Printing
+## 🖨️ Impresión
 
-The CV is optimized for printing with custom print styles. Use the print button or browser's print function (Ctrl/Cmd + P).
+El CV está optimizado para impresión. Puedes usar el botón de impresión integrado en la web o la función nativa del navegador (Ctrl/Cmd + P).
 
-## 📱 Responsive Design
+## 📱 Diseño Responsivo
 
-The layout automatically adjusts for different screen sizes:
+El layout se ajusta automáticamente:
+- **Desktop/Tablet**: Layout centrado con anchos controlados y márgenes elegantes.
+- **Móvil**: Layout de ancho completo con tipografía ajustada para máxima legibilidad.
 
-- Desktop: Two-column layout
-- Mobile: Single-column layout
+## 📄 Generación de PDF (RenderCV)
 
-## 🤝 Contributing
+Para generar la versión profesional del PDF:
+1. Instalar RenderCV: `uv tool install "rendercv[full]"`
+2. Ejecutar render: `rendercv render rendercv/Roy_Nadiel_Almada_CV_EN.yaml`
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🤝 Contribuciones
 
-## 📝 License
+¡Las contribuciones son bienvenidas! Siéntete libre de enviar un Pull Request.
 
-This project is open source and available under the MIT License.
+## 📝 Licencia
 
-## 👤 Contact
+Este proyecto es de código abierto y está bajo la Licencia MIT.
 
-- GitHub: [@joncodeofficial](https://github.com/joncodeofficial)
-- LinkedIn: [Jonathan Peña](https://www.linkedin.com/in/joncode)
+## 👤 Contacto
+
+- GitHub: [@RoyNadiel](https://github.com/RoyNadiel)
+- LinkedIn: [Roy Almada](https://www.linkedin.com/in/roy-almada-397a19186/)
