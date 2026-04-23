@@ -10,7 +10,9 @@ export const MainContent = () => {
     <div className='bg-white px-4 py-6 sm:px-8 sm:py-8 lg:px-14 lg:py-12 print:px-12 print:py-10 space-y-6'>
       {/* ── Header ── */}
       <header className='text-center space-y-2'>
-        <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold text-black tracking-tight'>Roy Nadiel Almada</h1>
+        <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold text-black tracking-tight'>
+          Roy Nadiel Almada
+        </h1>
         <p className='text-sm text-black tracking-widest uppercase'>Software Developer</p>
         <div className='flex flex-wrap justify-center items-center text-xs text-black gap-y-1 pt-1'>
           <span>Venezuela, Isla de Margarita</span>
@@ -32,23 +34,23 @@ export const MainContent = () => {
           >
             roynadiel.github.io
           </a>
-          <span className='contact-separator' />
+          <span className='contact-separator print:hidden' />
           <a
             href='https://github.com/RoyNadiel'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#004F90] hover:underline'
+            className='text-[#004F90] hover:underline print:hidden'
           >
-            RoyNadiel
+            GitHub
           </a>
-          <span className='contact-separator' />
+          <span className='contact-separator print:hidden' />
           <a
             href='https://www.linkedin.com/in/roy-almada-397a19186/'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#004F90] hover:underline'
+            className='text-[#004F90] hover:underline print:hidden'
           >
-            roy-almada-397a19186
+            LinkedIn
           </a>
         </div>
       </header>
